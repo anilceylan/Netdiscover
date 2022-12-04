@@ -16,7 +16,7 @@ class ARPPing():
 		if args.ipaddress != None:
 			return args
 		else:
-			print('Yanlış veya eksik giriş yaptınız')	
+			print('You entered an incorrect or incomplete entry')	
 		
 		
 	def arp_request(self,ip):

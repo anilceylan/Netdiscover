@@ -4,7 +4,7 @@ import scapy.all as scapy
 class ARPPing():
 	
 	def __init__(self):
-		print('ARPPing Başlatıldı')
+		print('ARPPing is Started')
 
 	def get_user_input(self):
 

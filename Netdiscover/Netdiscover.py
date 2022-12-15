@@ -11,13 +11,11 @@ class ARPPing():
 		parser = argparse.ArgumentParser()
 		parser.add_argument('-i','--ipaddress', type=str , help='Enter your IP address')
 		args = parser.parse_args()
-		#print(args.ipaddress)
 		
 		if args.ipaddress != None:
 			return args
 		else:
 			print('You entered an incorrect or incomplete entry')	
-		
 		
 	def arp_request(self,ip):
 		arp_request_packet = scapy.ARP(pdst=ip)
